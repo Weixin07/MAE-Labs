@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Lab_6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="countrylist">
+        <item>Australia</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Thailand</item>
+        <item>United Kingdom</item>
+        <item>US</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

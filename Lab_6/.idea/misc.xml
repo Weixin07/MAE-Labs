@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/activity_list_container.xml" value="0.25" />
         <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_fragmentlist.xml" value="0.25" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_fragmentlist_main.xml" value="0.25" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_list_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_list_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_more.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_overlay_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Faith/AndroidStudioProjects/Lab_6/app/src/main/res/layout/fragment_static.xml" value="0.10989583333333333" />
       </map>
     </option>
   </component>

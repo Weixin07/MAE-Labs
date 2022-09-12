@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/images" />
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Button Show Toast Message" />
+
+    <Button
+        android:id="@+id/buttonMaterialCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Design Button Show Answer" />
+
+    <Button
+        android:id="@+id/buttonLoadActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Design Button Show RecycleView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Mathematic Calculation wiith 2 Numbers" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioButtonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addition" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSubtraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDivision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMultiplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplication" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

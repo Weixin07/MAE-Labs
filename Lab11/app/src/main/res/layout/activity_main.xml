@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello App" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="null"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TimePicker
+        android:id="@+id/alarmTimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Thread" />
+
+    <Button
+        android:id="@+id/buttonNoThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Thread" />
+
+    <Button
+        android:id="@+id/buttonWorkManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test WorkManager" />
+
+    <Button
+        android:id="@+id/buttonAlarmManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test AlarmManager" />
+
+</LinearLayout>
